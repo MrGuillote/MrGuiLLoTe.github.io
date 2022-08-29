@@ -21,8 +21,8 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
+        habilidades[0].classList.add("Python 3");
+        habilidades[1].classList.add("Redes");
         habilidades[2].classList.add("photoshop");
         habilidades[3].classList.add("wordpress");
         habilidades[4].classList.add("drupal");
