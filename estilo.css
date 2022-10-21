@@ -269,49 +269,49 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .redes{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s redes forwards;
 }
-@keyframes javascript {
+@keyframes redes {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .testing{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s testing forwards;
 }
-@keyframes htmlcss {
+@keyframes testing {
     0%{width: 0%;}
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .python3{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s python3 forwards;
 }
-@keyframes photoshop {
+@keyframes python3 {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .bash{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s bash forwards;
 }
-@keyframes wordpress {
+@keyframes bash {
     0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .comunicacion{
@@ -320,7 +320,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .trabajo{
@@ -329,7 +329,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 99%;}
 }
 
 .skills .skill .creatividad{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 99%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +356,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 90%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -590,7 +590,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
