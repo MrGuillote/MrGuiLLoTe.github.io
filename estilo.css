@@ -305,11 +305,11 @@ html{
     100%{width: 95%;}
 }
 
-.skills .skill .bash{
+.skills .skill .sql{
     width: 0%;
-    animation: 2s bash forwards;
+    animation: 2s sql forwards;
 }
-@keyframes bash {
+@keyframes sql {
     0%{width: 0%;}
     100%{width: 90%;}
 }
