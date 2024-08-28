@@ -711,4 +711,83 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    
 }
+.contenido-seccion {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    color: #ffffff;
+}
+
+.descripcion p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.especializaciones {
+    margin-top: 20px;
+}
+
+.especializaciones h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.especializaciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.especializaciones ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.especializaciones ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.datos-personales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.datos-personales ul li {
+    margin-bottom: 10px;
+}
+
+.datos-personales ul li strong {
+    color: #1CB698;
+}
+
+.contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.interes {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 30%;
+    max-width: 100px;
+    text-align: center;
+}
+
+.interes i {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
